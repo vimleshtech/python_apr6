@@ -1,0 +1,46 @@
+	https://github.com/vimleshtech/python-summar-02
+
+data= pandas.read_excel()
+
+datframme :
+
+id  name   gender    country  slary 
+1   raman  male    .....      ...
+1   raman  male    .....      ...
+1   raman  male    .....      ...
+1   raman  male    .....      ...
+1   raman  male    .....      ...
+1   raman  male    .....      ...
+
+
+
+covert dataframe to list:
+
+d = data.values  #list  1   raman  male    .....      ...
+d = [[1,'raman','male'],[],[]]
+
+for r in d:
+	for c in r:  1 
+		if str(c) =='is':
+			..
+		
+	
+
+l =[4444,333,455,333,]
+data['nsal'] = l
+
+data.to_csv('newfile.csv)
+
+
+===============================
+for i in range(0,len(d)):#0 , no of rows 
+	for j in range(i+1,len(d)): #from i+1  , no of rows 
+		if d[i][0] > 	d[j][0]:
+			t = d[i][0]
+			d[i][0]=	d[j][0]
+			d[j][0] = t
+
+
+
+
+			
